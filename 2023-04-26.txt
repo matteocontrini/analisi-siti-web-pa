@@ -1,0 +1,455 @@
+--------------
+www.governo.it
+--------------
+✅ http://governo.it redirects to https://www.governo.it/it (HTTPS as expected)
+✅ http://www.governo.it redirects to https://www.governo.it/it (HTTPS as expected)
+✅ https://governo.it remains HTTPS as expected (https://www.governo.it/it)
+✅ https://www.governo.it remains HTTPS as expected (https://www.governo.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+
+---------------
+www.mise.gov.it
+---------------
+❌ http://mise.gov.it leads to https://mise.gov.it/ with error: ssl HTTPSConnectionPool(host='mise.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'mise.gov.it' doesn't match '*.mise.gov.it'")))
+✅ http://www.mise.gov.it redirects to https://www.mise.gov.it/it/ (HTTPS as expected)
+❌ https://mise.gov.it leads to https://mise.gov.it/ with error: ssl HTTPSConnectionPool(host='mise.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'mise.gov.it' doesn't match '*.mise.gov.it'")))
+✅ https://www.mise.gov.it remains HTTPS as expected (https://www.mise.gov.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000; includeSubDomains; preload
+
+---------------------------
+nuovatvdigitale.mise.gov.it
+---------------------------
+✅ http://nuovatvdigitale.mise.gov.it redirects to https://nuovatvdigitale.mise.gov.it/ (HTTPS as expected)
+❌ http://www.nuovatvdigitale.mise.gov.it leads to http://www.nuovatvdigitale.mise.gov.it/ with error: dns
+✅ https://nuovatvdigitale.mise.gov.it remains HTTPS as expected (https://nuovatvdigitale.mise.gov.it/)
+❌ https://www.nuovatvdigitale.mise.gov.it leads to https://www.nuovatvdigitale.mise.gov.it/ with error: dns
+
+🔍 Using canonical: https
+🖥️  Server: None
+🔒️ HSTS: max-age=15768000; includeSubDomains
+
+---------------------
+www.infratelitalia.it
+---------------------
+❌ http://infratelitalia.it does not redirect to HTTPS (http://infratelitalia.it/)
+✅ http://www.infratelitalia.it redirects to https://www.infratelitalia.it/ (HTTPS as expected)
+❌ https://infratelitalia.it leads to https://infratelitalia.it/ with error: ssl HTTPSConnectionPool(host='infratelitalia.it', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'infratelitalia.it' doesn't match either of '*.fpcgil.it', 'fpcgil.it'")))
+✅ https://www.infratelitalia.it remains HTTPS as expected (https://www.infratelitalia.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/8.5
+🔒️ HSTS: None
+
+------------------
+www.interno.gov.it
+------------------
+✅ http://interno.gov.it redirects to https://www.interno.gov.it/it (HTTPS as expected)
+✅ http://www.interno.gov.it redirects to https://www.interno.gov.it/it (HTTPS as expected)
+✅ https://interno.gov.it remains HTTPS as expected (https://www.interno.gov.it/it)
+✅ https://www.interno.gov.it remains HTTPS as expected (https://www.interno.gov.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/10.0
+🔒️ HSTS: None
+
+-----------------
+www.prefettura.it
+-----------------
+❌ http://prefettura.it does not redirect to HTTPS (http://www.prefettura.it/portale/multidip/index.htm)
+❌ http://www.prefettura.it does not redirect to HTTPS (http://www.prefettura.it/portale/multidip/index.htm)
+❌ https://prefettura.it redirects to http://www.prefettura.it/portale/multidip/index.htm (should not redirect to HTTP)
+❌ https://www.prefettura.it redirects to http://www.prefettura.it/portale/multidip/index.htm (should not redirect to HTTP)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/7.5
+🔒️ HSTS: None
+
+-------------
+www.esteri.it
+-------------
+❌ http://esteri.it leads to http://esteri.it/ with error: dns
+✅ http://www.esteri.it redirects to https://www.esteri.it/it/ (HTTPS as expected)
+❌ https://esteri.it leads to https://esteri.it/ with error: dns
+✅ https://www.esteri.it remains HTTPS as expected (https://www.esteri.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000; includeSubDomains; preload
+
+-----------------
+www.salute.gov.it
+-----------------
+❌ http://salute.gov.it leads to https://salute.gov.it/ with error: ssl HTTPSConnectionPool(host='salute.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+✅ http://www.salute.gov.it redirects to https://www.salute.gov.it/ (HTTPS as expected)
+❌ https://salute.gov.it leads to https://salute.gov.it/ with error: ssl HTTPSConnectionPool(host='salute.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+✅ https://www.salute.gov.it remains HTTPS as expected (https://www.salute.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx/1.16.1
+🔒️ HSTS: max-age=31536000
+
+---------------
+www.aifa.gov.it
+---------------
+✅ http://aifa.gov.it redirects to https://www.aifa.gov.it/ (HTTPS as expected)
+✅ http://www.aifa.gov.it redirects to https://www.aifa.gov.it/ (HTTPS as expected)
+✅ https://aifa.gov.it remains HTTPS as expected (https://www.aifa.gov.it:443/)
+✅ https://www.aifa.gov.it remains HTTPS as expected (https://www.aifa.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: max-age=63072000;  preload
+
+----------------
+www.giustizia.it
+----------------
+✅ http://giustizia.it redirects to https://www.giustizia.it:443/giustizia/ (HTTPS as expected)
+✅ http://www.giustizia.it redirects to https://www.giustizia.it/giustizia/ (HTTPS as expected)
+✅ https://giustizia.it remains HTTPS as expected (https://www.giustizia.it:443/giustizia/)
+✅ https://www.giustizia.it remains HTTPS as expected (https://www.giustizia.it/giustizia/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000 ; includeSubDomains
+
+-------------
+www.difesa.it
+-------------
+❌ http://difesa.it leads to http://difesa.it/ with error: dns
+✅ http://www.difesa.it redirects to https://www.difesa.it/Pagine/default.aspx (HTTPS as expected)
+❌ https://difesa.it leads to https://difesa.it/ with error: dns
+✅ https://www.difesa.it remains HTTPS as expected (https://www.difesa.it/Pagine/default.aspx)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+
+------------------
+www.carabinieri.it
+------------------
+❌ http://carabinieri.it leads to http://carabinieri.it/ with error: dns
+✅ http://www.carabinieri.it redirects to https://www.carabinieri.it:443/ (HTTPS as expected)
+❌ https://carabinieri.it leads to https://carabinieri.it/ with error: dns
+✅ https://www.carabinieri.it remains HTTPS as expected (https://www.carabinieri.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: None
+
+--------------
+www.mef.gov.it
+--------------
+❌ http://mef.gov.it leads to http://mef.gov.it/ with error: dns
+❌ http://www.mef.gov.it leads to https://www.mef.gov.it/ with error: read timeout
+❌ https://mef.gov.it leads to https://mef.gov.it/ with error: dns
+❌ https://www.mef.gov.it leads to https://www.mef.gov.it/ with error: ssl HTTPSConnectionPool(host='www.mef.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+⚠️  No canonical
+
+-----------------------
+www.italiadomani.gov.it
+-----------------------
+✅ http://italiadomani.gov.it redirects to https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html (HTTPS as expected)
+✅ http://www.italiadomani.gov.it redirects to https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html (HTTPS as expected)
+✅ https://italiadomani.gov.it remains HTTPS as expected (https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html)
+✅ https://www.italiadomani.gov.it remains HTTPS as expected (https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: max-age=31536000; includeSubDomains
+
+-------------------------
+www.agenziaentrate.gov.it
+-------------------------
+✅ http://agenziaentrate.gov.it redirects to https://www.agenziaentrate.gov.it/portale/ (HTTPS as expected)
+✅ http://www.agenziaentrate.gov.it redirects to https://www.agenziaentrate.gov.it/portale/ (HTTPS as expected)
+✅ https://agenziaentrate.gov.it remains HTTPS as expected (https://www.agenziaentrate.gov.it/portale/)
+✅ https://www.agenziaentrate.gov.it remains HTTPS as expected (https://www.agenziaentrate.gov.it/portale/)
+
+🔍 Using canonical: https+www
+🖥️  Server:
+🔒️ HSTS: None
+
+------------------------
+www.politicheagricole.it
+------------------------
+❌ http://politicheagricole.it leads to http://politicheagricole.it/ with error: dns
+✅ http://www.politicheagricole.it redirects to https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/202 (HTTPS as expected)
+❌ https://politicheagricole.it leads to https://politicheagricole.it/ with error: dns
+✅ https://www.politicheagricole.it remains HTTPS as expected (https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/202)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: None
+
+---------------
+www.mase.gov.it
+---------------
+✅ http://mase.gov.it redirects to https://www.mase.gov.it/ (HTTPS as expected)
+✅ http://www.mase.gov.it redirects to https://www.mase.gov.it/ (HTTPS as expected)
+✅ https://mase.gov.it remains HTTPS as expected (https://www.mase.gov.it/)
+✅ https://www.mase.gov.it remains HTTPS as expected (https://www.mase.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: max-age=1000
+
+--------------
+www.mit.gov.it
+--------------
+✅ http://mit.gov.it redirects to https://mit.gov.it:443/ (HTTPS as expected)
+✅ http://www.mit.gov.it redirects to https://www.mit.gov.it:443/ (HTTPS as expected)
+✅ https://mit.gov.it remains HTTPS as expected (https://mit.gov.it/)
+✅ https://www.mit.gov.it remains HTTPS as expected (https://www.mit.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx/1.24.0
+🔒️ HSTS: max-age=31536000
+
+-----------------
+www.lavoro.gov.it
+-----------------
+✅ http://lavoro.gov.it redirects to https://www.lavoro.gov.it/Pagine/default.aspx (HTTPS as expected)
+✅ http://www.lavoro.gov.it redirects to https://www.lavoro.gov.it/Pagine/default.aspx (HTTPS as expected)
+✅ https://lavoro.gov.it remains HTTPS as expected (https://www.lavoro.gov.it/Pagine/default.aspx)
+✅ https://www.lavoro.gov.it remains HTTPS as expected (https://www.lavoro.gov.it/Pagine/default.aspx)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/8.0
+🔒️ HSTS: None
+
+---------------
+www.miur.gov.it
+---------------
+❌ http://miur.gov.it leads to https://miur.gov.it/ with error: ssl HTTPSConnectionPool(host='miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+❌ http://www.miur.gov.it leads to https://www.miur.gov.it/ with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+❌ https://miur.gov.it leads to https://miur.gov.it/ with error: ssl HTTPSConnectionPool(host='miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+❌ https://www.miur.gov.it leads to https://www.miur.gov.it/ with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+⚠️  No canonical
+
+-------------
+istruzione.it
+-------------
+❌ http://istruzione.it leads to https://www.istruzione.it/ with error: ssl HTTPSConnectionPool(host='www.istruzione.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+❌ http://www.istruzione.it leads to https://www.istruzione.it/ with error: ssl HTTPSConnectionPool(host='www.istruzione.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+❌ https://istruzione.it leads to https://istruzione.it/ with error: ssl HTTPSConnectionPool(host='istruzione.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+❌ https://www.istruzione.it leads to https://www.istruzione.it/ with error: ssl HTTPSConnectionPool(host='www.istruzione.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:997)')))
+⚠️  No canonical
+
+--------------------
+www.beniculturali.it
+--------------------
+❌ http://beniculturali.it leads to http://beniculturali.it/ with error: dns
+✅ http://www.beniculturali.it redirects to https://www.beniculturali.it/ (HTTPS as expected)
+❌ https://beniculturali.it leads to https://beniculturali.it/ with error: dns
+✅ https://www.beniculturali.it remains HTTPS as expected (https://www.beniculturali.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=63072000
+
+--------------
+cultura.gov.it
+--------------
+✅ http://cultura.gov.it redirects to https://cultura.gov.it/ (HTTPS as expected)
+✅ http://www.cultura.gov.it redirects to https://cultura.gov.it/ (HTTPS as expected)
+✅ https://cultura.gov.it remains HTTPS as expected (https://cultura.gov.it/)
+✅ https://www.cultura.gov.it remains HTTPS as expected (https://cultura.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=63072000
+
+---------------------------
+www.ministeroturismo.gov.it
+---------------------------
+✅ http://ministeroturismo.gov.it redirects to https://www.ministeroturismo.gov.it/ (HTTPS as expected)
+✅ http://www.ministeroturismo.gov.it redirects to https://www.ministeroturismo.gov.it/ (HTTPS as expected)
+✅ https://ministeroturismo.gov.it remains HTTPS as expected (https://www.ministeroturismo.gov.it/)
+✅ https://www.ministeroturismo.gov.it remains HTTPS as expected (https://www.ministeroturismo.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: None
+
+-----------
+www.inps.it
+-----------
+✅ http://inps.it redirects to https://www.inps.it/ (HTTPS as expected)
+✅ http://www.inps.it redirects to https://www.inps.it/ (HTTPS as expected)
+✅ https://inps.it remains HTTPS as expected (https://www.inps.it/)
+✅ https://www.inps.it remains HTTPS as expected (https://www.inps.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31557600
+
+-------------
+www.italia.it
+-------------
+✅ http://italia.it redirects to https://www.italia.it/it (HTTPS as expected)
+✅ http://www.italia.it redirects to https://www.italia.it/it (HTTPS as expected)
+✅ https://italia.it remains HTTPS as expected (https://www.italia.it/it)
+✅ https://www.italia.it remains HTTPS as expected (https://www.italia.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31557600
+
+-------------------------
+bandaultralarga.italia.it
+-------------------------
+❌ http://bandaultralarga.italia.it leads to https://bandaultralarga.italia.it/ with error: ssl HTTPSConnectionPool(host='bandaultralarga.italia.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+❌ http://www.bandaultralarga.italia.it leads to https://bandaultralarga.italia.it/ with error: ssl HTTPSConnectionPool(host='bandaultralarga.italia.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+❌ https://bandaultralarga.italia.it leads to https://bandaultralarga.italia.it/ with error: ssl HTTPSConnectionPool(host='bandaultralarga.italia.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+❌ https://www.bandaultralarga.italia.it leads to https://www.bandaultralarga.italia.it/ with error: ssl HTTPSConnectionPool(host='www.bandaultralarga.italia.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
+⚠️  No canonical
+
+----------------------------
+www.impresainungiorno.gov.it
+----------------------------
+❌ http://impresainungiorno.gov.it leads to https://impresainungiorno.gov.it/ with error: ssl HTTPSConnectionPool(host='impresainungiorno.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'impresainungiorno.gov.it' doesn't match 'www.impresainungiorno.gov.it'")))
+✅ http://www.impresainungiorno.gov.it redirects to https://www.impresainungiorno.gov.it/ (HTTPS as expected)
+❌ https://impresainungiorno.gov.it leads to https://impresainungiorno.gov.it/ with error: ssl HTTPSConnectionPool(host='impresainungiorno.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'impresainungiorno.gov.it' doesn't match 'www.impresainungiorno.gov.it'")))
+✅ https://www.impresainungiorno.gov.it remains HTTPS as expected (https://www.impresainungiorno.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+
+-----------------
+impresa.italia.it
+-----------------
+✅ http://impresa.italia.it redirects to https://impresa.italia.it/cadi/app/login (HTTPS as expected)
+❌ http://www.impresa.italia.it leads to http://www.impresa.italia.it/ with error: dns
+✅ https://impresa.italia.it remains HTTPS as expected (https://impresa.italia.it/cadi/app/login)
+❌ https://www.impresa.italia.it leads to https://www.impresa.italia.it/ with error: dns
+
+🔍 Using canonical: https
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+
+------------------
+innovazione.gov.it
+------------------
+✅ http://innovazione.gov.it redirects to https://innovazione.gov.it/ (HTTPS as expected)
+✅ http://www.innovazione.gov.it redirects to https://innovazione.gov.it/ (HTTPS as expected)
+✅ https://innovazione.gov.it remains HTTPS as expected (https://innovazione.gov.it/)
+✅ https://www.innovazione.gov.it remains HTTPS as expected (https://innovazione.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: GitHub.com
+🔒️ HSTS: max-age=31556952
+
+---------------------
+padigitale2026.gov.it
+---------------------
+✅ http://padigitale2026.gov.it redirects to https://padigitale2026.gov.it/ (HTTPS as expected)
+✅ http://www.padigitale2026.gov.it redirects to https://padigitale2026.gov.it/ (HTTPS as expected)
+✅ https://padigitale2026.gov.it remains HTTPS as expected (https://padigitale2026.gov.it/)
+✅ https://www.padigitale2026.gov.it remains HTTPS as expected (https://padigitale2026.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: GitHub.com
+🔒️ HSTS: max-age=31556952
+
+------------
+io.italia.it
+------------
+✅ http://io.italia.it redirects to https://io.italia.it/ (HTTPS as expected)
+❌ http://www.io.italia.it leads to http://www.io.italia.it/ with error: dns
+✅ https://io.italia.it remains HTTPS as expected (https://io.italia.it/)
+❌ https://www.io.italia.it leads to https://www.io.italia.it/ with error: dns
+
+🔍 Using canonical: https
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000
+
+---------------
+www.agid.gov.it
+---------------
+✅ http://agid.gov.it redirects to https://www.agid.gov.it:443/ (HTTPS as expected)
+✅ http://www.agid.gov.it redirects to https://www.agid.gov.it:443/ (HTTPS as expected)
+✅ https://agid.gov.it remains HTTPS as expected (https://www.agid.gov.it:443/)
+✅ https://www.agid.gov.it remains HTTPS as expected (https://www.agid.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: None
+
+---------------------------
+www.protezionecivile.gov.it
+---------------------------
+❌ http://protezionecivile.gov.it leads to http://protezionecivile.gov.it/ with error: dns
+✅ http://www.protezionecivile.gov.it redirects to https://www.protezionecivile.gov.it/ (HTTPS as expected)
+❌ https://protezionecivile.gov.it leads to https://protezionecivile.gov.it/ with error: dns
+✅ https://www.protezionecivile.gov.it remains HTTPS as expected (https://www.protezionecivile.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔒️ HSTS: None
+
+----------------
+sisma2016.gov.it
+----------------
+✅ http://sisma2016.gov.it redirects to https://sisma2016.gov.it/ (HTTPS as expected)
+✅ http://www.sisma2016.gov.it redirects to https://sisma2016.gov.it (HTTPS as expected)
+✅ https://sisma2016.gov.it remains HTTPS as expected (https://sisma2016.gov.it/)
+❌ https://www.sisma2016.gov.it leads to https://www.sisma2016.gov.it/ with error: ssl HTTPSConnectionPool(host='www.sisma2016.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'www.sisma2016.gov.it' doesn't match 'sisma2016.gov.it'")))
+
+🔍 Using canonical: https
+🖥️  Server: Apache/2.4.29 (Ubuntu)
+🔒️ HSTS: None
+
+-------------
+www.camera.it
+-------------
+✅ http://camera.it redirects to https://www.camera.it/leg19/1 (HTTPS as expected)
+✅ http://www.camera.it redirects to https://www.camera.it/leg19/1 (HTTPS as expected)
+✅ https://camera.it remains HTTPS as expected (https://www.camera.it/leg19/1)
+✅ https://www.camera.it remains HTTPS as expected (https://www.camera.it/leg19/1)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+
+-------------
+www.senato.it
+-------------
+✅ http://senato.it redirects to https://www.senato.it/home (HTTPS as expected)
+✅ http://www.senato.it redirects to https://www.senato.it/home (HTTPS as expected)
+✅ https://senato.it remains HTTPS as expected (https://www.senato.it/home)
+✅ https://www.senato.it remains HTTPS as expected (https://www.senato.it/home)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/10.0
+🔒️ HSTS: None
+
+----------------
+www.quirinale.it
+----------------
+❌ http://quirinale.it leads to http://quirinale.it/ with error: timeout
+✅ http://www.quirinale.it redirects to https://www.quirinale.it/ (HTTPS as expected)
+❌ https://quirinale.it leads to https://quirinale.it/ with error: timeout
+✅ https://www.quirinale.it remains HTTPS as expected (https://www.quirinale.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: cloudflare
+🔒️ HSTS: None
+
+----------
+www.gov.uk
+----------
+✅ http://gov.uk redirects to https://www.gov.uk/ (HTTPS as expected)
+✅ http://www.gov.uk redirects to https://www.gov.uk/ (HTTPS as expected)
+✅ https://gov.uk remains HTTPS as expected (https://www.gov.uk/)
+✅ https://www.gov.uk remains HTTPS as expected (https://www.gov.uk/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=31536000; preload

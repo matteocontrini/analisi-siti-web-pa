@@ -1,0 +1,119 @@
+---------------------------
+poliziapenitenziaria.gov.it
+---------------------------
+✅ http://poliziapenitenziaria.gov.it redirects to https://poliziapenitenziaria.gov.it/polizia-penitenziaria-site/ (HTTPS as expected)
+✅ http://www.poliziapenitenziaria.gov.it redirects to https://www.poliziapenitenziaria.gov.it/polizia-penitenziaria-site/ (HTTPS as expected)
+✅ https://poliziapenitenziaria.gov.it remains HTTPS as expected (https://poliziapenitenziaria.gov.it/polizia-penitenziaria-site/)
+✅ https://www.poliziapenitenziaria.gov.it remains HTTPS as expected (https://www.poliziapenitenziaria.gov.it/polizia-penitenziaria-site/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=31536000; includeSubdomains;
+
+---------------------
+www.poliziadistato.it
+---------------------
+✅ http://poliziadistato.it redirects to https://www.poliziadistato.it/ (HTTPS as expected)
+✅ http://www.poliziadistato.it redirects to https://www.poliziadistato.it/ (HTTPS as expected)
+✅ https://poliziadistato.it remains HTTPS as expected (https://www.poliziadistato.it/)
+✅ https://www.poliziadistato.it remains HTTPS as expected (https://www.poliziadistato.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Nginx
+🔒️ HSTS: max-age=2592000
+
+-----------------
+www.vigilfuoco.it
+-----------------
+❌ http://vigilfuoco.it leads to http://vigilfuoco.it/ with error: dns
+❌ http://www.vigilfuoco.it does not redirect to HTTPS (http://www.vigilfuoco.it/aspx/home.aspx)
+❌ https://vigilfuoco.it leads to https://vigilfuoco.it/ with error: dns
+✅ https://www.vigilfuoco.it remains HTTPS as expected (https://www.vigilfuoco.it/aspx/home.aspx)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/6.0
+🔒️ HSTS: max-age=157680000
+
+---------------------------
+www.funzionepubblica.gov.it
+---------------------------
+✅ http://funzionepubblica.gov.it redirects to https://www.funzionepubblica.gov.it/ (HTTPS as expected)
+✅ http://www.funzionepubblica.gov.it redirects to https://www.funzionepubblica.gov.it/ (HTTPS as expected)
+✅ https://funzionepubblica.gov.it remains HTTPS as expected (https://www.funzionepubblica.gov.it/)
+✅ https://www.funzionepubblica.gov.it remains HTTPS as expected (https://www.funzionepubblica.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+
+--------------------
+www.sport.governo.it
+--------------------
+❌ http://sport.governo.it leads to http://sport.governo.it/ with error: dns
+✅ http://www.sport.governo.it redirects to https://www.sport.governo.it/it/ (HTTPS as expected)
+❌ https://sport.governo.it leads to https://sport.governo.it/ with error: dns
+✅ https://www.sport.governo.it remains HTTPS as expected (https://www.sport.governo.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+
+-----------------------------
+www.politichegiovanili.gov.it
+-----------------------------
+✅ http://politichegiovanili.gov.it redirects to https://www.politichegiovanili.gov.it/ (HTTPS as expected)
+✅ http://www.politichegiovanili.gov.it redirects to https://www.politichegiovanili.gov.it/ (HTTPS as expected)
+✅ https://politichegiovanili.gov.it remains HTTPS as expected (https://www.politichegiovanili.gov.it/)
+✅ https://www.politichegiovanili.gov.it remains HTTPS as expected (https://www.politichegiovanili.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+
+--------------
+www.mur.gov.it
+--------------
+❌ http://mur.gov.it leads to http://mur.gov.it/ with error: dns
+✅ http://www.mur.gov.it redirects to https://www.mur.gov.it/it (HTTPS as expected)
+❌ https://mur.gov.it leads to https://mur.gov.it/ with error: dns
+✅ https://www.mur.gov.it remains HTTPS as expected (https://www.mur.gov.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: cloudflare
+🔒️ HSTS: None
+
+--------------------------------
+www.anagrafenazionale.interno.it
+--------------------------------
+✅ http://anagrafenazionale.interno.it redirects to https://www.anagrafenazionale.interno.it/ (HTTPS as expected)
+✅ http://www.anagrafenazionale.interno.it redirects to https://www.anagrafenazionale.interno.it/ (HTTPS as expected)
+✅ https://anagrafenazionale.interno.it remains HTTPS as expected (https://www.anagrafenazionale.interno.it/)
+✅ https://www.anagrafenazionale.interno.it remains HTTPS as expected (https://www.anagrafenazionale.interno.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: max-age=31536000; includeSubDomains
+
+-----------------
+www.pagopa.gov.it
+-----------------
+✅ http://pagopa.gov.it redirects to https://www.pagopa.gov.it:443/ (HTTPS as expected)
+✅ http://www.pagopa.gov.it redirects to https://www.pagopa.gov.it/ (HTTPS as expected)
+✅ https://pagopa.gov.it remains HTTPS as expected (https://www.pagopa.gov.it:443/)
+✅ https://www.pagopa.gov.it remains HTTPS as expected (https://www.pagopa.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔒️ HSTS: None
+
+---------------
+www.spid.gov.it
+---------------
+✅ http://spid.gov.it redirects to https://www.spid.gov.it/ (HTTPS as expected)
+✅ http://www.spid.gov.it redirects to https://www.spid.gov.it/ (HTTPS as expected)
+✅ https://spid.gov.it remains HTTPS as expected (https://www.spid.gov.it/)
+✅ https://www.spid.gov.it remains HTTPS as expected (https://www.spid.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=15768000
