@@ -54,8 +54,24 @@ domains = [
     'www.senato.it',
     'www.quirinale.it',
     'www.polostrategiconazionale.it',
-    'www.gov.uk',
+    'www.finanze.it',
+    'connetti.italia.it',
+    'www.agcom.it',
+    'www.pagopa.it',
+    'www.inpa.gov.it',
+    'anncsu.gov.it',
+    'www.interop.pagopa.it',
+    'dati.gov.it',
+    'www.csirt.gov.it',
+    'www.cartaidentita.interno.gov.it',
+    'www.prenotazionicie.interno.gov.it',
+    'passaportonline.poliziadistato.it',
+    'www.piattaformaunicanazionale.it',
+    'www.acn.gov.it',
+    'developers.italia.it',
 ]
+
+domains += ['www.gov.uk', ]
 
 
 def main():
