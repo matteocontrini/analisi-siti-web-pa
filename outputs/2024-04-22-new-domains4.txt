@@ -1,0 +1,17 @@
+----------
+www.nic.it
+----------
+✅ http://nic.it redirects to https://www.nic.it/it (HTTPS as expected)
+✅ http://www.nic.it redirects to https://www.nic.it/it (HTTPS as expected)
+❌ https://nic.it leads to https://nic.it/ with error: ssl HTTPSConnectionPool(host='nic.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nic.it'. (_ssl.c:1006)")))
+✅ https://www.nic.it remains HTTPS as expected (https://www.nic.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: None
+🌐 IPv6: 2a00:d40:1:1:192:12:192:40
+🔧 Nameserver: m.dns.it., ns2.nic.it., nameserver.cnr.it., d.dns.it., r.dns.it., dns.nic.it.
+🔧 Registrar: REGISTRY-REG / ccTLD 'it' Registry
+

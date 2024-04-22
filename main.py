@@ -69,6 +69,7 @@ domains = [
     'www.piattaformaunicanazionale.it',
     'www.acn.gov.it',
     'developers.italia.it',
+    'www.nic.it',
 ]
 
 domains += ['www.gov.uk', ]
