@@ -1,5 +1,6 @@
 import dns.resolver
 import requests
+import whois
 
 domains = [
     'www.governo.it',
@@ -117,6 +118,8 @@ def main():
         except dns.resolver.NoAnswer:
             pass
 
+        whois_info = whois.whois(domain)
+
         if canonical is None:
             print('⚠️  No canonical')
         else:
@@ -127,6 +130,7 @@ def main():
             print(f'🔒️ CSP: {outcomes[canonical]["csp"]}')
         print(f'🌐 IPv6: {ipv6}')
         print(f'🔧 Nameserver: {nameserver}')
+        print(f'🔧 Registrar: {whois_info.registrar_name} / {whois_info.registrar}')
 
         print()
 
