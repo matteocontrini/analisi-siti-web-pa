@@ -6,7 +6,6 @@ domains = [
     'www.mise.gov.it',
     'www.mimit.gov.it',
     'nuovatvdigitale.mise.gov.it',
-    'www.infratelitalia.it',
     'www.interno.gov.it',
     'www.prefettura.it',
     'www.esteri.it',
@@ -36,6 +35,7 @@ domains = [
     'www.politichegiovanili.gov.it',
     'www.inps.it',
     'www.italia.it',
+    'www.infratelitalia.it',
     'bandaultralarga.italia.it',
     'www.impresainungiorno.gov.it',
     'impresa.italia.it',
@@ -52,8 +52,8 @@ domains = [
     'www.camera.it',
     'www.senato.it',
     'www.quirinale.it',
-    'www.gov.uk',
     'www.polostrategiconazionale.it',
+    'www.gov.uk',
 ]
 
 
