@@ -104,7 +104,8 @@ def main():
         ipv6 = None
         try:
             answer = dns.resolver.resolve(domain, 'AAAA')
-            ipv6 = ', '.join(answer.rrset.items)
+            addresses = [str(ip) for ip in answer.rrset.items]
+            ipv6 = ', '.join(addresses)
         except dns.resolver.NoAnswer:
             pass
 
