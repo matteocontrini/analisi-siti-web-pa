@@ -1,0 +1,17 @@
+--------------------
+developers.italia.it
+--------------------
+✅ http://developers.italia.it redirects to https://developers.italia.it/ (HTTPS as expected)
+✅ http://www.developers.italia.it redirects to https://developers.italia.it/ (HTTPS as expected)
+✅ https://developers.italia.it remains HTTPS as expected (https://developers.italia.it/)
+✅ https://www.developers.italia.it remains HTTPS as expected (https://developers.italia.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: GitHub.com
+🔌 Powered by: None
+🔒️ HSTS: None
+🔒️ CSP: None
+🌐 IPv6: 2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153
+🔧 Nameserver: ns1-04.azure-dns.com., ns2-04.azure-dns.net., ns3-04.azure-dns.org., ns4-04.azure-dns.info.
+🔧 Registrar: ITNET-REG / ITnet s.r.l.
+

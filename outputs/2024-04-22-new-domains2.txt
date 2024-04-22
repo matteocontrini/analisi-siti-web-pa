@@ -1,0 +1,17 @@
+---------------------------------
+passaportonline.poliziadistato.it
+---------------------------------
+❌ http://passaportonline.poliziadistato.it leads to http://passaportonline.poliziadistato.it/ with error: timeout
+❌ http://www.passaportonline.poliziadistato.it leads to http://www.passaportonline.poliziadistato.it/ with error: timeout
+✅ https://passaportonline.poliziadistato.it remains HTTPS as expected (https://passaportonline.poliziadistato.it/)
+❌ https://www.passaportonline.poliziadistato.it leads to https://www.passaportonline.poliziadistato.it/ with error: timeout
+
+🔍 Using canonical: https
+🖥️  Server: Apache
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000 ; includeSubDomains, max-age=15552000; includeSubDomains; preload
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: None
+🔧 Registrar: WIDE-REG / Aruba Business s.r.l.
+

@@ -1,0 +1,686 @@
+--------------
+www.governo.it
+--------------
+✅ http://governo.it redirects to https://www.governo.it/it (HTTPS as expected)
+✅ http://www.governo.it redirects to https://www.governo.it/it (HTTPS as expected)
+✅ https://governo.it remains HTTPS as expected (https://www.governo.it/it)
+✅ https://www.governo.it remains HTTPS as expected (https://www.governo.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: None
+
+---------------
+www.mise.gov.it
+---------------
+❌ http://mise.gov.it leads to https://mise.gov.it/ with error: ssl HTTPSConnectionPool(host='mise.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mise.gov.it'. (_ssl.c:1006)")))
+✅ http://www.mise.gov.it redirects to https://www.mimit.gov.it/it/ (HTTPS as expected)
+❌ https://mise.gov.it leads to https://mise.gov.it/ with error: ssl HTTPSConnectionPool(host='mise.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mise.gov.it'. (_ssl.c:1006)")))
+✅ https://www.mise.gov.it remains HTTPS as expected (https://www.mimit.gov.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000; includeSubDomains; preload
+🔒️ CSP: frame-ancestors 'self';
+
+------------
+mimit.gov.it
+------------
+✅ http://mimit.gov.it redirects to https://mimit.gov.it/it/ (HTTPS as expected)
+✅ http://www.mimit.gov.it redirects to https://www.mimit.gov.it/it/ (HTTPS as expected)
+✅ https://mimit.gov.it remains HTTPS as expected (https://mimit.gov.it/it/)
+✅ https://www.mimit.gov.it remains HTTPS as expected (https://www.mimit.gov.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000; includeSubDomains; preload
+🔒️ CSP: frame-ancestors 'self';
+
+----------------
+www.mimit.gov.it
+----------------
+✅ http://mimit.gov.it redirects to https://mimit.gov.it/it/ (HTTPS as expected)
+✅ http://www.mimit.gov.it redirects to https://www.mimit.gov.it/it/ (HTTPS as expected)
+✅ https://mimit.gov.it remains HTTPS as expected (https://mimit.gov.it/it/)
+✅ https://www.mimit.gov.it remains HTTPS as expected (https://www.mimit.gov.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000; includeSubDomains; preload
+🔒️ CSP: frame-ancestors 'self';
+
+---------------------------
+nuovatvdigitale.mise.gov.it
+---------------------------
+✅ http://nuovatvdigitale.mise.gov.it redirects to https://nuovatvdigitale.mise.gov.it/ (HTTPS as expected)
+❌ http://www.nuovatvdigitale.mise.gov.it leads to http://www.nuovatvdigitale.mise.gov.it/ with error: dns
+✅ https://nuovatvdigitale.mise.gov.it remains HTTPS as expected (https://nuovatvdigitale.mise.gov.it/)
+❌ https://www.nuovatvdigitale.mise.gov.it leads to https://www.nuovatvdigitale.mise.gov.it/ with error: dns
+
+🔍 Using canonical: https
+🖥️  Server: None
+🔒️ HSTS: max-age=15768000; includeSubDomains
+🔒️ CSP: None
+
+---------------------
+www.infratelitalia.it
+---------------------
+❌ http://infratelitalia.it leads to http://infratelitalia.it/ with error: connection
+✅ http://www.infratelitalia.it redirects to https://www.infratelitalia.it/ (HTTPS as expected)
+❌ https://infratelitalia.it leads to https://infratelitalia.it/ with error: connection
+✅ https://www.infratelitalia.it remains HTTPS as expected (https://www.infratelitalia.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/8.5
+🔒️ HSTS: None
+🔒️ CSP: None
+
+------------------
+www.interno.gov.it
+------------------
+✅ http://interno.gov.it redirects to https://www.interno.gov.it/it (HTTPS as expected)
+✅ http://www.interno.gov.it redirects to https://www.interno.gov.it/it (HTTPS as expected)
+✅ https://interno.gov.it remains HTTPS as expected (https://www.interno.gov.it/it)
+✅ https://www.interno.gov.it remains HTTPS as expected (https://www.interno.gov.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/10.0
+🔒️ HSTS: None
+🔒️ CSP: upgrade-insecure-requests;
+
+-----------------
+www.prefettura.it
+-----------------
+✅ http://prefettura.it redirects to https://www.prefettura.it/portale/multidip/index.htm (HTTPS as expected)
+✅ http://www.prefettura.it redirects to https://www.prefettura.it/portale/multidip/index.htm (HTTPS as expected)
+✅ https://prefettura.it remains HTTPS as expected (https://www.prefettura.it/portale/multidip/index.htm)
+✅ https://www.prefettura.it remains HTTPS as expected (https://www.prefettura.it/portale/multidip/index.htm)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: None
+🔒️ CSP: None
+
+-------------
+www.esteri.it
+-------------
+❌ http://esteri.it leads to http://esteri.it/ with error: dns
+✅ http://www.esteri.it redirects to https://www.esteri.it/it/ (HTTPS as expected)
+❌ https://esteri.it leads to https://esteri.it/ with error: dns
+✅ https://www.esteri.it remains HTTPS as expected (https://www.esteri.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: default-src 'self' 'unsafe-eval' 'unsafe-inline'  esteri.it *.esteri.it downloads.wordpress.org  *.wordpress.org it.wordpress.org https://noc1.wordfence.com *.google.com *.google.it *.gstatic.com *.googletagmanager.com *.doubleclick.com *.doubleclick.net *.google-analytics.com *.googleapis.com *.googlevideo.com *.cloudflare.com *.youtube.com *.youtu.be *.twitter.com *.twimg.com *.formden.com *.jquery.com cdnjs.cloudflare.com api.mapbox.com;                script-src 'self' 'unsafe-inline' 'unsafe-eval'  *.esteri.it *.google.com *.google.it *.gstatic.com *.googletagmanager.com *.doubleclick.com *.doubleclick.net *.google-analytics.com *.googleapis.com *.googlevideo.com *.cloudflare.com *.youtube.com *.youtu.be *.twitter.com *.twimg.com *.addthis.com *.addthisedge.com *.formden.com *.jquery.com https://ingestion.webanalytics.italia.it/matomo.js;                img-src 'self' *.esteri.it *.google.com *.google.it *.gstatic.com *.googletagmanager.com *.doubleclick.com *.doubleclick.net *.google-analytics.com *.googleapis.com *.googlevideo.com *.cloudflare.com *.youtube.com *.youtu.be *.twitter.com *.twimg.com  *.formden.com *.jquery.com tile.osm.org *.tile.jawg.io api.mapbox.com https://ingestion.webanalytics.italia.it/matomo.php data:;                 connect-src 'self' *.esteri.it *.google.com *.google.it *.gstatic.com *.googletagmanager.com *.doubleclick.com *.doubleclick.net *.google-analytics.com *.googleapis.com *.googlevideo.com *.cloudflare.com *.youtube.com *.youtu.be *.twitter.com *.twimg.com *.addthis.com *.addthisedge.com *.formden.com *.jquery.com https://ingestion.webanalytics.italia.it;                 frame-src 'self' *.brightfestival.com *.esteri.it *.google.com *.google.it *.gstatic.com *.googletagmanager.com *.doubleclick.com *.doubleclick.net *.google-analytics.com *.googleapis.com *.googlevideo.com *.cloudflare.com *.youtube.com *.youtu.be *.youtube-nocookie.com *.facebook.com *.twitter.com *.twimg.com *.addthis.com *.addthisedge.com *.formden.com *.jquery.com player.indacolive.com content-delivery-0.akamaized.net https://www.rai.it/ https://player.vimeo.com *.raiplay.it https://webtv.camera.it/ https://vimeo.com https://fb.watch/ https://vs.ansa.it/sito/video_mp4_export/ ;                 object-src 'self' *.esteri.it *.google.com *.google.it *.gstatic.com *.googletagmanager.com *.doubleclick.com *.doubleclick.net *.google-analytics.com *.googleapis.com *.googlevideo.com *.cloudflare.com *.youtube.com *.youtu.be *.twitter.com *.twimg.com *.formden.com *.jquery.com;                 upgrade-insecure-requests; block-all-mixed-content
+
+-----------------
+www.salute.gov.it
+-----------------
+✅ http://salute.gov.it redirects to https://www.salute.gov.it/ (HTTPS as expected)
+✅ http://www.salute.gov.it redirects to https://www.salute.gov.it/ (HTTPS as expected)
+❌ https://salute.gov.it leads to https://salute.gov.it/ with error: ssl HTTPSConnectionPool(host='salute.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1006)')))
+✅ https://www.salute.gov.it remains HTTPS as expected (https://www.salute.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: XXXXXXXXXXXXX
+🔒️ HSTS: max-age=31536000
+🔒️ CSP: None
+
+---------------
+www.aifa.gov.it
+---------------
+✅ http://aifa.gov.it redirects to https://www.aifa.gov.it/ (HTTPS as expected)
+✅ http://www.aifa.gov.it redirects to https://www.aifa.gov.it/ (HTTPS as expected)
+✅ https://aifa.gov.it remains HTTPS as expected (https://www.aifa.gov.it:443/)
+✅ https://www.aifa.gov.it remains HTTPS as expected (https://www.aifa.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: max-age=31536000
+🔒️ CSP: None
+
+----------------
+www.giustizia.it
+----------------
+✅ http://giustizia.it redirects to https://www.giustizia.it/giustizia/ (HTTPS as expected)
+✅ http://www.giustizia.it redirects to https://www.giustizia.it/giustizia/ (HTTPS as expected)
+✅ https://giustizia.it remains HTTPS as expected (https://www.giustizia.it/giustizia/)
+✅ https://www.giustizia.it remains HTTPS as expected (https://www.giustizia.it/giustizia/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000 ; includeSubDomains
+🔒️ CSP: script-src 'unsafe-inline' 'unsafe-eval' * ;
+
+-------------
+www.difesa.it
+-------------
+❌ http://difesa.it leads to http://difesa.it/ with error: dns
+❌ http://www.difesa.it leads to https://www.difesa.it/ with error: ssl HTTPSConnectionPool(host='www.difesa.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1006)')))
+❌ https://difesa.it leads to https://difesa.it/ with error: dns
+❌ https://www.difesa.it leads to https://www.difesa.it/ with error: ssl HTTPSConnectionPool(host='www.difesa.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1006)')))
+⚠️  No canonical
+
+------------------
+www.carabinieri.it
+------------------
+❌ http://carabinieri.it leads to http://carabinieri.it/ with error: dns
+✅ http://www.carabinieri.it redirects to https://www.carabinieri.it/ (HTTPS as expected)
+❌ https://carabinieri.it leads to https://carabinieri.it/ with error: dns
+✅ https://www.carabinieri.it remains HTTPS as expected (https://www.carabinieri.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=157680000
+🔒️ CSP: upgrade-insecure-requests
+
+---------------------------
+poliziapenitenziaria.gov.it
+---------------------------
+✅ http://poliziapenitenziaria.gov.it redirects to https://poliziapenitenziaria.gov.it/polizia-penitenziaria-site/ (HTTPS as expected)
+✅ http://www.poliziapenitenziaria.gov.it redirects to https://poliziapenitenziaria.gov.it/polizia-penitenziaria-site/ (HTTPS as expected)
+✅ https://poliziapenitenziaria.gov.it remains HTTPS as expected (https://poliziapenitenziaria.gov.it/polizia-penitenziaria-site/)
+✅ https://www.poliziapenitenziaria.gov.it remains HTTPS as expected (https://poliziapenitenziaria.gov.it/polizia-penitenziaria-site/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx/1.25.3
+🔒️ HSTS: None
+🔒️ CSP: None
+
+---------------------
+www.poliziadistato.it
+---------------------
+✅ http://poliziadistato.it redirects to https://www.poliziadistato.it/ (HTTPS as expected)
+✅ http://www.poliziadistato.it redirects to https://www.poliziadistato.it/ (HTTPS as expected)
+✅ https://poliziadistato.it remains HTTPS as expected (https://www.poliziadistato.it/)
+✅ https://www.poliziadistato.it remains HTTPS as expected (https://www.poliziadistato.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Nginx
+🔒️ HSTS: max-age=2592000
+🔒️ CSP: upgrade-insecure-requests, default-src 'self' 'unsafe-inline' 'unsafe-eval' *.poliziadistato.it:*  blob: data: *.poliziadistato.it *.zencdn.net *.tv2000.it *.wowza.com *.interno.it *.rating-widget.com *.twimg.com *.twitter.com *.googleapis.com *.gstatic.com *.google.it *.macromedia.com *.google-analytics.com *.facebook.net *.sharethis.com *.youtube.com *.google.com *.googletagmanager.com opendataavcp.interno.it *.raiplay.it *.rai.it js.api.here.com *.hereapi.com; img-src 'self' data: blob: i.rw.gs *.wowza.com *.rating-widget.com *.twitter.com *.twimg.com *.poliziadistato.it opendataavcp.interno.it l.sharethis.com *.facebook.com *.google-analytics.com *.gstatic.com *.gravatar.com *.googleapis.com s.w.org *.google.it *.raiplay.it *.rai.it; style-src 'self' *.poliziadistato.it *.twimg.com *.rating-widget.com *.twitter.com opendataavcp.interno.it *.sharethis.com 'unsafe-inline' *.googleapis.com *.raiplay.it *.rai.it js.api.here.com; frame-src 'self' *.poliziadistato.it storify.com *.storify.com *.twitter.com opendataavcp.interno.it *.facebook.com *.sharethis.com *.youtube.com *.youtube-nocookie.com video.repubblica.it *.google.com *.googletagmanager.com *.raiplay.it *.rai.it *.adobe.com; worker-src 'self' *.poliziadistato.it storify.com *.storify.com *.twitter.com opendataavcp.interno.it *.facebook.com *.sharethis.com *.youtube.com *.youtube-nocookie.com video.repubblica.it *.google.com *.googletagmanager.com *.raiplay.it *.rai.it; child-src 'self' *.poliziadistato.it opendataavcp.interno.it *.facebook.com *.sharethis.com *.youtube.com video.repubblica.it *.youtube-nocookie.com *.google.com *.googletagmanager.com *.twitter.com opendataavcp.interno.it *.raiplay.it *.rai.it; font-src 'self' data: *.poliziadistato.it *.wowza.com opendataavcp.interno.it *.gstatic.com; frame-ancestors 'self' *.poliziadistato.it storify.com *.storify.com *.twitter.com opendataavcp.interno.it *.facebook.com *.sharethis.com *.youtube.com *.youtube-nocookie.com video.repubblica.it *.google.com *.googletagmanager.com *.raiplay.it *.rai.it; media-src *.poliziadistato.it blob:
+
+-----------------
+www.vigilfuoco.it
+-----------------
+❌ http://vigilfuoco.it leads to http://vigilfuoco.it/ with error: dns
+❌ http://www.vigilfuoco.it does not redirect to HTTPS (http://www.vigilfuoco.it/aspx/home.aspx)
+❌ https://vigilfuoco.it leads to https://vigilfuoco.it/ with error: dns
+✅ https://www.vigilfuoco.it remains HTTPS as expected (https://www.vigilfuoco.it/aspx/home.aspx)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/6.0
+🔒️ HSTS: max-age=157680000
+🔒️ CSP: None
+
+--------------
+www.mef.gov.it
+--------------
+❌ http://mef.gov.it leads to http://mef.gov.it/ with error: dns
+✅ http://www.mef.gov.it redirects to https://www.mef.gov.it/ (HTTPS as expected)
+❌ https://mef.gov.it leads to https://mef.gov.it/ with error: dns
+✅ https://www.mef.gov.it remains HTTPS as expected (https://www.mef.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: frame-ancestors 'self';
+
+-----------------------
+www.italiadomani.gov.it
+-----------------------
+✅ http://italiadomani.gov.it redirects to https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html (HTTPS as expected)
+✅ http://www.italiadomani.gov.it redirects to https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html (HTTPS as expected)
+✅ https://italiadomani.gov.it remains HTTPS as expected (https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html)
+✅ https://www.italiadomani.gov.it remains HTTPS as expected (https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: default-src 'none';frame-src 'self' https://live.lifesizecloud.com https://www2.sogei.it https://www.youtube.com;connect-src 'self';style-src 'self' 'unsafe-inline'; font-src 'self'; media-src 'self';script-src https://aaws-aanalytics.sogei.it  https://cdn.jsdelivr.net 'self' 'unsafe-eval' 'unsafe-inline';img-src https://aaws-aanalytics.sogei.it https://cdn.jsdelivr.net 'self' data: ;script-src-elem  https://aaws-aanalytics.sogei.it  https://cdn.jsdelivr.net 'self' 'unsafe-inline';object-src 'self' https://www2.sogei.it;
+
+-------------------------
+www.agenziaentrate.gov.it
+-------------------------
+✅ http://agenziaentrate.gov.it redirects to https://www.agenziaentrate.gov.it/index.htm?v=20240312 (HTTPS as expected)
+✅ http://www.agenziaentrate.gov.it redirects to https://www.agenziaentrate.gov.it/index.htm?v=20240312 (HTTPS as expected)
+✅ https://agenziaentrate.gov.it remains HTTPS as expected (https://www.agenziaentrate.gov.it/index.htm?v=20240312)
+✅ https://www.agenziaentrate.gov.it remains HTTPS as expected (https://www.agenziaentrate.gov.it/index.htm?v=20240312)
+
+🔍 Using canonical: https+www
+🖥️  Server: 
+🔒️ HSTS: None
+🔒️ CSP: None
+
+------------------------
+www.politicheagricole.it
+------------------------
+❌ http://politicheagricole.it leads to http://politicheagricole.it/ with error: dns
+✅ http://www.politicheagricole.it redirects to https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/202 (HTTPS as expected)
+❌ https://politicheagricole.it leads to https://politicheagricole.it/ with error: dns
+✅ https://www.politicheagricole.it remains HTTPS as expected (https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/202)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: None
+🔒️ CSP: None
+
+---------------
+www.mase.gov.it
+---------------
+✅ http://mase.gov.it redirects to https://www.mase.gov.it/ (HTTPS as expected)
+✅ http://www.mase.gov.it redirects to https://www.mase.gov.it/ (HTTPS as expected)
+✅ https://mase.gov.it remains HTTPS as expected (https://www.mase.gov.it/)
+✅ https://www.mase.gov.it remains HTTPS as expected (https://www.mase.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: None
+🔒️ CSP: None
+
+--------------
+www.mit.gov.it
+--------------
+✅ http://mit.gov.it redirects to https://mit.gov.it:443/ (HTTPS as expected)
+✅ http://www.mit.gov.it redirects to https://www.mit.gov.it:443/ (HTTPS as expected)
+✅ https://mit.gov.it remains HTTPS as expected (https://mit.gov.it/)
+✅ https://www.mit.gov.it remains HTTPS as expected (https://www.mit.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx/1.24.0
+🔒️ HSTS: max-age=31536000
+🔒️ CSP: None
+
+-----------------
+www.lavoro.gov.it
+-----------------
+✅ http://lavoro.gov.it redirects to https://www.lavoro.gov.it/ (HTTPS as expected)
+✅ http://www.lavoro.gov.it redirects to https://www.lavoro.gov.it/ (HTTPS as expected)
+✅ https://lavoro.gov.it remains HTTPS as expected (https://www.lavoro.gov.it/)
+✅ https://www.lavoro.gov.it remains HTTPS as expected (https://www.lavoro.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: None
+
+---------------
+www.miur.gov.it
+---------------
+❌ http://miur.gov.it leads to https://miur.gov.it/ with error: ssl HTTPSConnectionPool(host='miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+❌ http://www.miur.gov.it leads to https://www.miur.gov.it/ with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+❌ https://miur.gov.it leads to https://miur.gov.it/ with error: ssl HTTPSConnectionPool(host='miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+❌ https://www.miur.gov.it leads to https://www.miur.gov.it/ with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+⚠️  No canonical
+
+--------------
+www.mur.gov.it
+--------------
+❌ http://mur.gov.it leads to http://mur.gov.it/ with error: dns
+✅ http://www.mur.gov.it redirects to https://www.mur.gov.it/it (HTTPS as expected)
+❌ https://mur.gov.it leads to https://mur.gov.it/ with error: dns
+✅ https://www.mur.gov.it remains HTTPS as expected (https://www.mur.gov.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: cloudflare
+🔒️ HSTS: None
+🔒️ CSP: None
+
+-------------
+istruzione.it
+-------------
+❌ http://istruzione.it leads to https://www.miur.gov.it/web/guest/home with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: /web/guest/home (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+❌ http://www.istruzione.it leads to https://www.miur.gov.it/web/guest/home with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: /web/guest/home (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+❌ https://istruzione.it leads to https://www.miur.gov.it/web/guest/home with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: /web/guest/home (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+❌ https://www.istruzione.it leads to https://www.miur.gov.it/web/guest/home with error: ssl HTTPSConnectionPool(host='www.miur.gov.it', port=443): Max retries exceeded with url: /web/guest/home (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1006)')))
+⚠️  No canonical
+
+--------------------
+www.beniculturali.it
+--------------------
+❌ http://beniculturali.it leads to http://beniculturali.it/ with error: dns
+✅ http://www.beniculturali.it redirects to https://www.beniculturali.it/ (HTTPS as expected)
+❌ https://beniculturali.it leads to https://beniculturali.it/ with error: dns
+✅ https://www.beniculturali.it remains HTTPS as expected (https://www.beniculturali.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=63072000
+🔒️ CSP: None
+
+--------------
+cultura.gov.it
+--------------
+✅ http://cultura.gov.it redirects to https://cultura.gov.it/ (HTTPS as expected)
+✅ http://www.cultura.gov.it redirects to https://cultura.gov.it/ (HTTPS as expected)
+✅ https://cultura.gov.it remains HTTPS as expected (https://cultura.gov.it/)
+✅ https://www.cultura.gov.it remains HTTPS as expected (https://cultura.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=63072000
+🔒️ CSP: None
+
+---------------------------
+www.ministeroturismo.gov.it
+---------------------------
+✅ http://ministeroturismo.gov.it redirects to https://www.ministeroturismo.gov.it/ (HTTPS as expected)
+✅ http://www.ministeroturismo.gov.it redirects to https://www.ministeroturismo.gov.it/ (HTTPS as expected)
+✅ https://ministeroturismo.gov.it remains HTTPS as expected (https://www.ministeroturismo.gov.it/)
+✅ https://www.ministeroturismo.gov.it remains HTTPS as expected (https://www.ministeroturismo.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: None
+🔒️ CSP: None
+
+---------------------------
+www.funzionepubblica.gov.it
+---------------------------
+✅ http://funzionepubblica.gov.it redirects to https://www.funzionepubblica.gov.it/ (HTTPS as expected)
+✅ http://www.funzionepubblica.gov.it redirects to https://www.funzionepubblica.gov.it/ (HTTPS as expected)
+✅ https://funzionepubblica.gov.it remains HTTPS as expected (https://www.funzionepubblica.gov.it/)
+✅ https://www.funzionepubblica.gov.it remains HTTPS as expected (https://www.funzionepubblica.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: None
+
+--------------------
+www.sport.governo.it
+--------------------
+❌ http://sport.governo.it leads to http://sport.governo.it/ with error: dns
+✅ http://www.sport.governo.it redirects to https://www.sport.governo.it/it/ (HTTPS as expected)
+❌ https://sport.governo.it leads to https://sport.governo.it/ with error: dns
+✅ https://www.sport.governo.it remains HTTPS as expected (https://www.sport.governo.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: None
+
+-----------------------------
+www.politichegiovanili.gov.it
+-----------------------------
+❌ http://politichegiovanili.gov.it leads to http://politichegiovanili.gov.it/ with error: timeout
+❌ http://www.politichegiovanili.gov.it leads to http://www.politichegiovanili.gov.it/ with error: timeout
+❌ https://politichegiovanili.gov.it leads to https://politichegiovanili.gov.it/ with error: ssl HTTPSConnectionPool(host='politichegiovanili.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'politichegiovanili.gov.it'. (_ssl.c:1006)")))
+✅ https://www.politichegiovanili.gov.it remains HTTPS as expected (https://www.politichegiovanili.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: None
+
+-----------
+www.inps.it
+-----------
+✅ http://inps.it redirects to https://www.inps.it/ (HTTPS as expected)
+✅ http://www.inps.it redirects to https://www.inps.it/ (HTTPS as expected)
+✅ https://inps.it remains HTTPS as expected (https://www.inps.it/)
+✅ https://www.inps.it remains HTTPS as expected (https://www.inps.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31557600
+🔒️ CSP: None
+
+-------------
+www.italia.it
+-------------
+✅ http://italia.it redirects to https://www.italia.it/it (HTTPS as expected)
+✅ http://www.italia.it redirects to https://www.italia.it/it (HTTPS as expected)
+✅ https://italia.it remains HTTPS as expected (https://www.italia.it/it)
+✅ https://www.italia.it remains HTTPS as expected (https://www.italia.it/it)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: max-age=31557600
+🔒️ CSP: None
+
+-------------------------
+bandaultralarga.italia.it
+-------------------------
+✅ http://bandaultralarga.italia.it redirects to https://bandaultralarga.italia.it/ (HTTPS as expected)
+✅ http://www.bandaultralarga.italia.it redirects to https://www.bandaultralarga.italia.it/ (HTTPS as expected)
+✅ https://bandaultralarga.italia.it remains HTTPS as expected (https://bandaultralarga.italia.it/)
+✅ https://www.bandaultralarga.italia.it remains HTTPS as expected (https://www.bandaultralarga.italia.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: None
+🔒️ CSP: None
+
+----------------------------
+www.impresainungiorno.gov.it
+----------------------------
+✅ http://impresainungiorno.gov.it redirects to https://www.impresainungiorno.gov.it (HTTPS as expected)
+✅ http://www.impresainungiorno.gov.it redirects to https://www.impresainungiorno.gov.it/ (HTTPS as expected)
+✅ https://impresainungiorno.gov.it remains HTTPS as expected (https://www.impresainungiorno.gov.it)
+✅ https://www.impresainungiorno.gov.it remains HTTPS as expected (https://www.impresainungiorno.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: None
+
+-----------------
+impresa.italia.it
+-----------------
+✅ http://impresa.italia.it redirects to https://impresa.italia.it/cadi/app/login (HTTPS as expected)
+❌ http://www.impresa.italia.it leads to http://www.impresa.italia.it/ with error: dns
+✅ https://impresa.italia.it remains HTTPS as expected (https://impresa.italia.it/cadi/app/login)
+❌ https://www.impresa.italia.it leads to https://www.impresa.italia.it/ with error: dns
+
+🔍 Using canonical: https
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://api.privacy-center.org https://sdk.privacy-center.org https://connect.facebook.net https://www.facebook.com https://*.doubleclick.net https://www.google.com https://www.googleadservices.com https://*.googletagmanager.com https://tagmanager.google.com https://*.infocamere.it https://snap.licdn.com https://www.youtube.com https://www.gstatic.com; img-src 'self' data: https://api.privacy-center.org https://sdk.privacy-center.org https://*.doubleclick.net https://www.google.com https://www.google.it https://*.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com https://*.googletagmanager.com https://*.infocamere.it https://px.ads.linkedin.com https://www.facebook.com https://impresa.italia.it https://i.ytimg.com https://demos.telerik.com https://t3.ftcdn.net https://*.ggpht.com; connect-src 'self' 'unsafe-inline' https://api.privacy-center.org https://sdk.privacy-center.org https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.infocamere.it https://*.oribi.io https://*.googlesyndication.com https://*.google.com https://snap.licdn.com https://*.googleapis.com https://*.googlevideo.com https://*.doubleclick.net https://connect.facebook.net https://sentry.ellysse.it https://px.ads.linkedin.com https://webchat-backend-zru4ooqc3q-ew.a.run.app https://fonts.gstatic.com https://t3.ftcdn.net wss://chatsaccdmz.infocamere.it:8095; frame-src 'self' https://api.privacy-center.org https://sdk.privacy-center.org https://*.doubleclick.net https://www.facebook.com https://*.infocamere.it https://www.youtube.com; style-src 'self' 'unsafe-inline' https://tagmanager.google.com https://fonts.googleapis.com https://*.infocamere.it; font-src 'self' https://fonts.gstatic.com data: ; object-src 'none'; media-src blob: https://www.youtube.com;
+
+------------------
+innovazione.gov.it
+------------------
+✅ http://innovazione.gov.it redirects to https://innovazione.gov.it/ (HTTPS as expected)
+✅ http://www.innovazione.gov.it redirects to https://innovazione.gov.it/ (HTTPS as expected)
+✅ https://innovazione.gov.it remains HTTPS as expected (https://innovazione.gov.it/)
+✅ https://www.innovazione.gov.it remains HTTPS as expected (https://innovazione.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: GitHub.com
+🔒️ HSTS: max-age=31556952
+🔒️ CSP: None
+
+---------------------
+padigitale2026.gov.it
+---------------------
+✅ http://padigitale2026.gov.it redirects to https://padigitale2026.gov.it/ (HTTPS as expected)
+✅ http://www.padigitale2026.gov.it redirects to https://padigitale2026.gov.it/ (HTTPS as expected)
+✅ https://padigitale2026.gov.it remains HTTPS as expected (https://padigitale2026.gov.it/)
+✅ https://www.padigitale2026.gov.it remains HTTPS as expected (https://padigitale2026.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: GitHub.com
+🔒️ HSTS: max-age=31556952
+🔒️ CSP: None
+
+------------
+io.italia.it
+------------
+✅ http://io.italia.it redirects to https://io.italia.it/ (HTTPS as expected)
+❌ http://www.io.italia.it leads to http://www.io.italia.it/ with error: dns
+✅ https://io.italia.it remains HTTPS as expected (https://io.italia.it/)
+❌ https://www.io.italia.it leads to https://www.io.italia.it/ with error: dns
+
+🔍 Using canonical: https
+🖥️  Server: None
+🔒️ HSTS: max-age=31536000
+🔒️ CSP: None
+
+---------------
+www.agid.gov.it
+---------------
+❌ http://agid.gov.it leads to https://www.agid.gov.it// with error: ssl HTTPSConnectionPool(host='www.agid.gov.it', port=443): Max retries exceeded with url: // (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1006)')))
+❌ http://www.agid.gov.it leads to https://www.agid.gov.it:443/ with error: ssl HTTPSConnectionPool(host='www.agid.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1006)')))
+❌ https://agid.gov.it leads to https://www.agid.gov.it// with error: ssl HTTPSConnectionPool(host='www.agid.gov.it', port=443): Max retries exceeded with url: // (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1006)')))
+❌ https://www.agid.gov.it leads to https://www.agid.gov.it/ with error: ssl HTTPSConnectionPool(host='www.agid.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1006)')))
+⚠️  No canonical
+
+--------------------------------
+www.anagrafenazionale.interno.it
+--------------------------------
+✅ http://anagrafenazionale.interno.it redirects to https://www.anagrafenazionale.interno.it/ (HTTPS as expected)
+✅ http://www.anagrafenazionale.interno.it redirects to https://www.anagrafenazionale.interno.it/ (HTTPS as expected)
+✅ https://anagrafenazionale.interno.it remains HTTPS as expected (https://www.anagrafenazionale.interno.it/)
+✅ https://www.anagrafenazionale.interno.it remains HTTPS as expected (https://www.anagrafenazionale.interno.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: None
+
+-----------------
+www.pagopa.gov.it
+-----------------
+✅ http://pagopa.gov.it redirects to https://www.pagopa.gov.it:443/ (HTTPS as expected)
+✅ http://www.pagopa.gov.it redirects to https://www.pagopa.gov.it/ (HTTPS as expected)
+✅ https://pagopa.gov.it remains HTTPS as expected (https://www.pagopa.gov.it:443/)
+✅ https://www.pagopa.gov.it remains HTTPS as expected (https://www.pagopa.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔒️ HSTS: None
+🔒️ CSP: None
+
+---------------
+www.spid.gov.it
+---------------
+✅ http://spid.gov.it redirects to https://www.spid.gov.it/ (HTTPS as expected)
+✅ http://www.spid.gov.it redirects to https://www.spid.gov.it/ (HTTPS as expected)
+✅ https://spid.gov.it remains HTTPS as expected (https://www.spid.gov.it/)
+✅ https://www.spid.gov.it remains HTTPS as expected (https://www.spid.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=15768000
+🔒️ CSP: None
+
+-----------------------
+www.protezionecivile.it
+-----------------------
+❌ http://protezionecivile.it leads to http://protezionecivile.it/ with error: dns
+✅ http://www.protezionecivile.it redirects to https://www.protezionecivile.it/ (HTTPS as expected)
+❌ https://protezionecivile.it leads to https://protezionecivile.it/ with error: dns
+✅ https://www.protezionecivile.it remains HTTPS as expected (https://www.protezionecivile.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔒️ HSTS: None
+🔒️ CSP: None
+
+---------------------------
+www.protezionecivile.gov.it
+---------------------------
+❌ http://protezionecivile.gov.it leads to http://protezionecivile.gov.it/ with error: dns
+✅ http://www.protezionecivile.gov.it redirects to https://www.protezionecivile.gov.it/ (HTTPS as expected)
+❌ https://protezionecivile.gov.it leads to https://protezionecivile.gov.it/ with error: dns
+✅ https://www.protezionecivile.gov.it remains HTTPS as expected (https://www.protezionecivile.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔒️ HSTS: None
+🔒️ CSP: None
+
+----------------
+sisma2016.gov.it
+----------------
+✅ http://sisma2016.gov.it redirects to https://sisma2016.gov.it/ (HTTPS as expected)
+✅ http://www.sisma2016.gov.it redirects to https://sisma2016.gov.it (HTTPS as expected)
+✅ https://sisma2016.gov.it remains HTTPS as expected (https://sisma2016.gov.it/)
+❌ https://www.sisma2016.gov.it leads to https://www.sisma2016.gov.it/ with error: ssl HTTPSConnectionPool(host='www.sisma2016.gov.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.sisma2016.gov.it'. (_ssl.c:1006)")))
+
+🔍 Using canonical: https
+🖥️  Server: Apache/2.4.57 (Ubuntu)
+🔒️ HSTS: None
+🔒️ CSP: None
+
+-------------
+www.camera.it
+-------------
+✅ http://camera.it redirects to https://www.camera.it/leg19/1 (HTTPS as expected)
+✅ http://www.camera.it redirects to https://www.camera.it/leg19/1 (HTTPS as expected)
+✅ https://camera.it remains HTTPS as expected (https://www.camera.it/leg19/1)
+✅ https://www.camera.it remains HTTPS as expected (https://www.camera.it/leg19/1)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔒️ HSTS: None
+🔒️ CSP: None
+
+-------------
+www.senato.it
+-------------
+✅ http://senato.it redirects to https://www.senato.it/home (HTTPS as expected)
+✅ http://www.senato.it redirects to https://www.senato.it/home (HTTPS as expected)
+✅ https://senato.it remains HTTPS as expected (https://www.senato.it/home)
+✅ https://www.senato.it remains HTTPS as expected (https://www.senato.it/home)
+
+🔍 Using canonical: https+www
+🖥️  Server: Microsoft-IIS/10.0
+🔒️ HSTS: None
+🔒️ CSP: None
+
+----------------
+www.quirinale.it
+----------------
+❌ http://quirinale.it leads to http://quirinale.it/ with error: timeout
+✅ http://www.quirinale.it redirects to https://www.quirinale.it/ (HTTPS as expected)
+❌ https://quirinale.it leads to https://quirinale.it/ with error: timeout
+✅ https://www.quirinale.it remains HTTPS as expected (https://www.quirinale.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: cloudflare
+🔒️ HSTS: None
+🔒️ CSP: frame-ancestors 'none'; default-src 'none'; media-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; img-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src https://www.youtube.com https://player.vimeo.com https://www.rai.it https://www.rai.tv; object-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
+
+----------
+www.gov.uk
+----------
+✅ http://gov.uk redirects to https://www.gov.uk/ (HTTPS as expected)
+✅ http://www.gov.uk redirects to https://www.gov.uk/ (HTTPS as expected)
+✅ https://gov.uk remains HTTPS as expected (https://www.gov.uk/)
+✅ https://www.gov.uk remains HTTPS as expected (https://www.gov.uk/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔒️ HSTS: max-age=31536000; preload
+🔒️ CSP: default-src 'self'; base-uri 'none'; img-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com lux.speedcurve.com assets.digital.cabinet-office.gov.uk https://img.youtube.com https://i.ytimg.com; script-src 'self' www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com www.gstatic.com *.ytimg.com www.youtube.com www.youtube-nocookie.com 'nonce-MHEXcruGpH9oBv1arzhVtA=='; style-src 'self' www.gstatic.com; font-src 'self'; connect-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com lux.speedcurve.com gds-single-consent-staging.app gds-single-consent.app; object-src 'none'; frame-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.youtube.com www.youtube-nocookie.com; frame-ancestors 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk; report-uri https://csp-reporter.publishing.service.gov.uk/report
+
+------------------------------
+www.polostrategiconazionale.it
+------------------------------
+✅ http://polostrategiconazionale.it redirects to https://polostrategiconazionale.it:443/ (HTTPS as expected)
+✅ http://www.polostrategiconazionale.it redirects to https://www.polostrategiconazionale.it:443/ (HTTPS as expected)
+✅ https://polostrategiconazionale.it remains HTTPS as expected (https://polostrategiconazionale.it/)
+✅ https://www.polostrategiconazionale.it remains HTTPS as expected (https://www.polostrategiconazionale.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: PSN
+🔒️ HSTS: max-age=10368000; includeSubDomains; preload
+🔒️ CSP: default-src 'unsafe-inline' 'self' https://*.youtube.com https://youtu.be https://*.onetrust.com https://cdn.cookielaw.org https://*.polostrategiconazionale.it https://www.google.com https://www.googletagmanager.com https://www.googleadservices.com https://*.doubleclick.net https://*.googlesyndication.com https://www.gstatic.com https://acsbapp.com https://*.acsbapp.com https://*.googleapis.com https://*.googletagmanager.com https://*.googleadservices.com https://*.google-analytics.com https://*.doubleclick.net https://*.google.com https://*.google.it; img-src https://*.onetrust.com https://cdn.cookielaw.org https://www.google.com https://*.doubleclick.net https://*.ytimg.com https://*.polostrategiconazionale.it https://*.psn.justbit.it https://*.acsbapp.com https://*.googleapis.com https://*.gstatic.com https://*.google-analytics.com https://*.doubleclick.net https://*.google.com https://*.google.it https://*.googleadservices.com data: 'self'; font-src https://*.onetrust.com https://cdn.cookielaw.org https://*.polostrategiconazionale.it https://*.psn.justbit.it https://acsbapp.com https://fonts.gstatic.com data: 'self';
+
+--------------------------
+polostrategiconazionale.it
+--------------------------
+✅ http://polostrategiconazionale.it redirects to https://polostrategiconazionale.it:443/ (HTTPS as expected)
+✅ http://www.polostrategiconazionale.it redirects to https://www.polostrategiconazionale.it:443/ (HTTPS as expected)
+✅ https://polostrategiconazionale.it remains HTTPS as expected (https://polostrategiconazionale.it/)
+✅ https://www.polostrategiconazionale.it remains HTTPS as expected (https://www.polostrategiconazionale.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: PSN
+🔒️ HSTS: max-age=10368000; includeSubDomains; preload
+🔒️ CSP: default-src 'unsafe-inline' 'self' https://*.youtube.com https://youtu.be https://*.onetrust.com https://cdn.cookielaw.org https://*.polostrategiconazionale.it https://www.google.com https://www.googletagmanager.com https://www.googleadservices.com https://*.doubleclick.net https://*.googlesyndication.com https://www.gstatic.com https://acsbapp.com https://*.acsbapp.com https://*.googleapis.com https://*.googletagmanager.com https://*.googleadservices.com https://*.google-analytics.com https://*.doubleclick.net https://*.google.com https://*.google.it; img-src https://*.onetrust.com https://cdn.cookielaw.org https://www.google.com https://*.doubleclick.net https://*.ytimg.com https://*.polostrategiconazionale.it https://*.psn.justbit.it https://*.acsbapp.com https://*.googleapis.com https://*.gstatic.com https://*.google-analytics.com https://*.doubleclick.net https://*.google.com https://*.google.it https://*.googleadservices.com data: 'self'; font-src https://*.onetrust.com https://cdn.cookielaw.org https://*.polostrategiconazionale.it https://*.psn.justbit.it https://acsbapp.com https://fonts.gstatic.com data: 'self';
+

@@ -1,0 +1,216 @@
+--------------
+www.finanze.it
+--------------
+❌ http://finanze.it leads to http://finanze.it/ with error: dns
+✅ http://www.finanze.it redirects to https://www.finanze.it/it/ (HTTPS as expected)
+❌ https://finanze.it leads to https://finanze.it/ with error: dns
+✅ https://www.finanze.it remains HTTPS as expected (https://www.finanze.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: 
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: ammi2.finanze.it., ammi4.finanze.it., ammi3.finanze.it., ammi6.finanze.it., ammi7.finanze.it., ammi5.finanze.it.
+🔧 Registrar: ITNET-REG / ITnet s.r.l.
+
+------------------
+connetti.italia.it
+------------------
+✅ http://connetti.italia.it redirects to https://connetti.italia.it/ (HTTPS as expected)
+✅ http://www.connetti.italia.it redirects to https://connetti.italia.it/ (HTTPS as expected)
+✅ https://connetti.italia.it remains HTTPS as expected (https://connetti.italia.it/)
+✅ https://www.connetti.italia.it remains HTTPS as expected (https://connetti.italia.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔌 Powered by: None
+🔒️ HSTS: None
+🔒️ CSP: None
+🌐 IPv6: 2600:9000:25eb:ca00:0:5057:8bc0:93a1, 2600:9000:25eb:d400:0:5057:8bc0:93a1, 2600:9000:25eb:3800:0:5057:8bc0:93a1, 2600:9000:25eb:7a00:0:5057:8bc0:93a1, 2600:9000:25eb:4400:0:5057:8bc0:93a1, 2600:9000:25eb:e800:0:5057:8bc0:93a1, 2600:9000:25eb::5057:8bc0:93a1, 2600:9000:25eb:2000:0:5057:8bc0:93a1
+🔧 Nameserver: ns-1516.awsdns-61.org., ns-1545.awsdns-01.co.uk., ns-157.awsdns-19.com., ns-935.awsdns-52.net.
+🔧 Registrar: ITNET-REG / ITnet s.r.l.
+
+------------
+www.agcom.it
+------------
+❌ http://agcom.it leads to http://agcom.it/ with error: dns
+✅ http://www.agcom.it redirects to https://www.agcom.it:443/ (HTTPS as expected)
+❌ https://agcom.it leads to https://agcom.it/ with error: dns
+✅ https://www.agcom.it remains HTTPS as expected (https://www.agcom.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: XXXXXX
+🔌 Powered by: None
+🔒️ HSTS: max-age=15552000; includeSubDomains
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: dns5.interbusiness.it., dns4.interbusiness.it.
+🔧 Registrar: INTERBUSINESS-REG / Telecom Italia s.p.a.
+
+-------------
+www.pagopa.it
+-------------
+✅ http://pagopa.it redirects to https://www.pagopa.it:443/ (HTTPS as expected)
+✅ http://www.pagopa.it redirects to https://www.pagopa.it/ (HTTPS as expected)
+✅ https://pagopa.it remains HTTPS as expected (https://www.pagopa.it:443/)
+✅ https://www.pagopa.it remains HTTPS as expected (https://www.pagopa.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔌 Powered by: None
+🔒️ HSTS: None
+🔒️ CSP: script-src 'self' 'unsafe-inline' www.youtube.com https://*.cookielaw.org https://*.onetrust.com https://www.google-analytics.com https://cdn.matomo.cloud/pagopa.matomo.cloud https://pagopa.matomo.cloud https://recaptcha.net https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://*.sapsf.eu; style-src 'self' 'unsafe-inline' recaptcha.net; object-src 'none'; form-action 'self' https://*.sapsf.eu; font-src data: 'self'; connect-src 'self' https://pagopa.matomo.cloud https://*.cookielaw.org https://*.onetrust.com https://www.google-analytics.com https://api.io.italia.it *.google-analytics.com https://*.sapsf.eu; img-src data: 'self' *.cloudfront.net recaptcha.net https://*.sapsf.eu; frame-src https://www.google.com https://recaptcha.net https://www.youtube.com https://pagopa.applytojob.com https://*.sapsf.eu sapsf.eu
+🌐 IPv6: None
+🔧 Nameserver: ns1-04.azure-dns.com., ns2-04.azure-dns.net., ns3-04.azure-dns.org., ns4-04.azure-dns.info.
+🔧 Registrar: ARUBA-REG / Aruba s.p.a.
+
+---------------
+www.inpa.gov.it
+---------------
+✅ http://inpa.gov.it redirects to https://www.inpa.gov.it/ (HTTPS as expected)
+✅ http://www.inpa.gov.it redirects to https://www.inpa.gov.it/ (HTTPS as expected)
+✅ https://inpa.gov.it remains HTTPS as expected (https://www.inpa.gov.it/)
+✅ https://www.inpa.gov.it remains HTTPS as expected (https://www.inpa.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: XXXXXX
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000;
+🔒️ CSP: default-src 'self' 'unsafe-inline' data: static.addtoany.com; img-src 'self' 'unsafe-inline' data: dmlws-analytics.sogei.it fonts.gstatic.com region1.google-analytics.com s.w.org ps.w.org www.gstatic.com www.google.com translate.google.com translate.googleapis.com; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net cdnjs.cloudflare.com www.w3.org translate.googleapis.com fonts.googleapis.com www.gstatic.com; font-src 'self' 'unsafe-inline' data: concorsi.local translate.googleapis.com fonts.gstatic.com cdn.jsdelivr.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' dmlws-analytics.sogei.it www.googletagmanager.com cdn.jsdelivr.net ajax.googleapis.com connect.facebook.net platform.twitter.com translate.googleapis.com translate-pa.googleapis.com translate.google.com static.addtoany.com cdn.jsdelivr.net; connect-src 'self' 'unsafe-inline' region1.google-analytics.com translate.googleapis.com translate-pa.googleapis.com  portale.inpa.gov.it dmlws-analytics.sogei.it www.gstatic.com cdnjs.cloudflare.com cdn.jsdelivr.net
+🌐 IPv6: None
+🔧 Nameserver: ammi5.finanze.it., ammi4.finanze.it., ammi7.finanze.it., ammi2.finanze.it., ammi3.finanze.it., ammi6.finanze.it.
+🔧 Registrar: ITNET-REG / ITnet s.r.l.
+
+-------------
+anncsu.gov.it
+-------------
+❌ http://anncsu.gov.it leads to http://anncsu.gov.it/ with error: timeout
+❌ http://www.anncsu.gov.it leads to http://www.anncsu.gov.it/ with error: timeout
+✅ https://anncsu.gov.it remains HTTPS as expected (https://www.anncsu.gov.it/it/)
+✅ https://www.anncsu.gov.it remains HTTPS as expected (https://www.anncsu.gov.it/it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: OpenCms/14.0
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: ammi2.finanze.it., ammi4.finanze.it., ammi6.finanze.it., ammi3.finanze.it., ammi5.finanze.it., ammi7.finanze.it.
+🔧 Registrar: ITNET-REG / ITnet s.r.l.
+
+---------------------
+www.interop.pagopa.it
+---------------------
+✅ http://interop.pagopa.it redirects to https://www.interop.pagopa.it/ (HTTPS as expected)
+✅ http://www.interop.pagopa.it redirects to https://www.interop.pagopa.it/ (HTTPS as expected)
+✅ https://interop.pagopa.it remains HTTPS as expected (https://www.interop.pagopa.it/)
+✅ https://www.interop.pagopa.it remains HTTPS as expected (https://www.interop.pagopa.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: AmazonS3
+🔌 Powered by: None
+🔒️ HSTS: None
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: ns-1103.awsdns-09.org., ns-126.awsdns-15.com., ns-1787.awsdns-31.co.uk., ns-605.awsdns-11.net.
+🔧 Registrar: ARUBA-REG / Aruba s.p.a.
+
+-----------
+dati.gov.it
+-----------
+✅ http://dati.gov.it redirects to https://dati.gov.it/ (HTTPS as expected)
+✅ http://www.dati.gov.it redirects to https://www.dati.gov.it/ (HTTPS as expected)
+✅ https://dati.gov.it remains HTTPS as expected (https://dati.gov.it/)
+✅ https://www.dati.gov.it remains HTTPS as expected (https://www.dati.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: nginx
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: dnspremium1-vf.aruba.it., dnspremium2-vf.aruba.it.
+🔧 Registrar: CTRUPA-REG / Agenzia per l'Italia Digitale
+
+----------------
+www.csirt.gov.it
+----------------
+✅ http://csirt.gov.it redirects to https://www.csirt.gov.it/ (HTTPS as expected)
+✅ http://www.csirt.gov.it redirects to https://www.csirt.gov.it/ (HTTPS as expected)
+✅ https://csirt.gov.it remains HTTPS as expected (https://www.csirt.gov.it/)
+✅ https://www.csirt.gov.it remains HTTPS as expected (https://www.csirt.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: ammi7.finanze.it., ammi6.finanze.it., ammi3.finanze.it., ammi5.finanze.it., ammi2.finanze.it., ammi4.finanze.it.
+🔧 Registrar: ITNET-REG / ITnet s.r.l.
+
+--------------------------------
+www.cartaidentita.interno.gov.it
+--------------------------------
+❌ http://cartaidentita.interno.gov.it leads to http://cartaidentita.interno.gov.it/ with error: dns
+✅ http://www.cartaidentita.interno.gov.it redirects to https://www.cartaidentita.interno.gov.it/ (HTTPS as expected)
+❌ https://cartaidentita.interno.gov.it leads to https://cartaidentita.interno.gov.it/ with error: dns
+✅ https://www.cartaidentita.interno.gov.it remains HTTPS as expected (https://www.cartaidentita.interno.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: None
+🔌 Powered by: None
+🔒️ HSTS: max-age=15768000; includeSubDomains; preload
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: None
+🔧 Registrar: WIDE-REG / Aruba Business s.r.l.
+
+----------------------------------
+www.prenotazionicie.interno.gov.it
+----------------------------------
+❌ http://prenotazionicie.interno.gov.it leads to http://prenotazionicie.interno.gov.it/ with error: dns
+✅ http://www.prenotazionicie.interno.gov.it redirects to https://www.prenotazionicie.interno.gov.it/ (HTTPS as expected)
+❌ https://prenotazionicie.interno.gov.it leads to https://prenotazionicie.interno.gov.it/ with error: dns
+✅ https://www.prenotazionicie.interno.gov.it remains HTTPS as expected (https://www.prenotazionicie.interno.gov.it/)
+
+🔍 Using canonical: https+www
+🖥️  Server: Apache
+🔌 Powered by: None
+🔒️ HSTS: max-age=15768000; includeSubDomains; preload, max-age=63072000; includeSubdomains; preload
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: None
+🔧 Registrar: WIDE-REG / Aruba Business s.r.l.
+
+--------------------------------
+www.piattaformaunicanazionale.it
+--------------------------------
+❌ http://piattaformaunicanazionale.it leads to http://piattaformaunicanazionale.it/ with error: dns
+❌ http://www.piattaformaunicanazionale.it leads to http://www.piattaformaunicanazionale.it/ with error: timeout
+❌ https://piattaformaunicanazionale.it leads to https://piattaformaunicanazionale.it/ with error: dns
+❌ https://www.piattaformaunicanazionale.it leads to https://www.piattaformaunicanazionale.it/ with error: ssl HTTPSConnectionPool(host='www.piattaformaunicanazionale.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+⚠️  No canonical
+🌐 IPv6: None
+🔧 Nameserver: a16-67.akam.net., a13-67.akam.net., a22-67.akam.net., a11-67.akam.net., a6-64.akam.net., a1-19.akam.net.
+🔧 Registrar: FASTWEB-REG / Fastweb s.p.a.
+
+--------------
+www.acn.gov.it
+--------------
+✅ http://acn.gov.it redirects to https://www.acn.gov.it/portale/home (HTTPS as expected)
+✅ http://www.acn.gov.it redirects to https://www.acn.gov.it/portale/home (HTTPS as expected)
+✅ https://acn.gov.it remains HTTPS as expected (https://www.acn.gov.it/portale/home)
+✅ https://www.acn.gov.it remains HTTPS as expected (https://www.acn.gov.it/portale/home)
+
+🔍 Using canonical: https+www
+🖥️  Server: 
+🔌 Powered by: None
+🔒️ HSTS: max-age=31536000; includeSubDomains
+🔒️ CSP: None
+🌐 IPv6: None
+🔧 Nameserver: ammi5.finanze.it., ammi3.finanze.it., ammi6.finanze.it., ammi4.finanze.it., ammi2.finanze.it., ammi7.finanze.it.
+🔧 Registrar: ITNET-REG / ITnet s.r.l.
+
