@@ -1,8 +1,10 @@
+import dns.resolver
 import requests
 
 domains = [
     'www.governo.it',
     'www.mise.gov.it',
+    'www.mimit.gov.it',
     'nuovatvdigitale.mise.gov.it',
     'www.infratelitalia.it',
     'www.interno.gov.it',
@@ -44,12 +46,14 @@ domains = [
     'www.anagrafenazionale.interno.it',
     'www.pagopa.gov.it',
     'www.spid.gov.it',
+    'www.protezionecivile.it',
     'www.protezionecivile.gov.it',
     'sisma2016.gov.it',
     'www.camera.it',
     'www.senato.it',
     'www.quirinale.it',
     'www.gov.uk',
+    'www.polostrategiconazionale.it',
 ]
 
 
@@ -97,12 +101,31 @@ def main():
                 canonical = k
                 break
 
+        ipv6 = None
+        try:
+            answer = dns.resolver.resolve(domain, 'AAAA')
+            ipv6 = ', '.join(answer.rrset.items)
+        except dns.resolver.NoAnswer:
+            pass
+
+        nameserver = None
+        try:
+            answer = dns.resolver.resolve(domain, 'NS')
+            nameservers = [str(ns) for ns in answer.rrset.items]
+            nameserver = ', '.join(nameservers)
+        except dns.resolver.NoAnswer:
+            pass
+
         if canonical is None:
             print('⚠️  No canonical')
         else:
             print(f'\n🔍 Using canonical: {canonical}')
             print(f'🖥️  Server: {outcomes[canonical]["server"]}')
+            print(f'🔌 Powered by: {outcomes[canonical]["powered_by"]}')
             print(f'🔒️ HSTS: {outcomes[canonical]["hsts"]}')
+            print(f'🔒️ CSP: {outcomes[canonical]["csp"]}')
+        print(f'🌐 IPv6: {ipv6}')
+        print(f'🔧 Nameserver: {nameserver}')
 
         print()
 
@@ -111,13 +134,19 @@ def req(url: str):
     error = None
     server = None
     hsts = None
+    csp = None
+    powered_by = None
     try:
         resp = requests.get(url, headers={
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:125.0) Gecko/20100101 Firefox/125.0'
         }, allow_redirects=True, timeout=15)
         final_url = resp.url
         server = resp.headers.get('Server')
         hsts = resp.headers.get('Strict-Transport-Security')
+        csp = resp.headers.get('Content-Security-Policy')
+        if not csp:
+            csp = '<meta>' if 'content-security-policy' in resp.text.lower() else None
+        powered_by = resp.headers.get('X-Powered-By')
     except requests.exceptions.SSLError as e:
         error = 'ssl ' + str(e)
         final_url = e.request.url
@@ -142,6 +171,8 @@ def req(url: str):
         'final_www': final_url.split('/')[2].startswith('www.'),
         'server': server,
         'hsts': hsts,
+        'csp': csp,
+        'powered_by': powered_by,
     }
 
 
